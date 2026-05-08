@@ -1,6 +1,6 @@
 SELECT 
     skills,
-    COUNT(skills_dim.skill_id) AS skill_count
+    COUNT(skills_dim.skill_id) AS jobs_per_skill
 
 FROM
     job_postings_fact
