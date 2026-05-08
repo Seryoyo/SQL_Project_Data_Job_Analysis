@@ -15,7 +15,22 @@ Identifies the top 10 highest-paying remote Data Analyst roles with specified sa
 
 [View Query](project_sql/1_top_paying_jobs.sql)
 
-**Results:** *(add results here)*
+**Results:** Top 10 highest-paying remote Data Analyst roles:
+
+| Company | Job Title | Avg Yearly Salary |
+|---------|-----------|-------------------|
+| Mantys | Data Analyst | $650,000 |
+| Meta | Director of Analytics | $336,500 |
+| AT&T | Associate Director - Data Insights | $255,830 |
+| Pinterest | Data Analyst, Marketing | $232,423 |
+| UCLA Health | Data Analyst (Hybrid/Remote) | $217,000 |
+| SmartAsset | Principal Data Analyst (Remote) | $205,000 |
+| Inclusively | Director, Data Analyst - HYBRID | $189,309 |
+| Motional | Principal Data Analyst, AV Performance Analysis | $189,000 |
+| SmartAsset | Principal Data Analyst | $186,000 |
+| Patterned Learning AI | Senior Data Analyst | $185,000 |
+
+> Note: The top salary of $650,000 at Mantys is a significant outlier. Most top-paying roles are senior/director level positions ranging from $185,000–$336,500.
 
 ---
 
@@ -67,7 +82,22 @@ Combines demand and salary data to identify skills that are both highly sought a
 
 [View Query](project_sql/5_optimal_skills.sql)
 
-**Results:** *(add results here)*
+**Results:** Top optimal skills balancing demand and salary:
+
+| Skill | Demand Count | Avg Salary |
+|-------|-------------|------------|
+| Python | 236 | $101,397 |
+| Tableau | 230 | $99,288 |
+| SQL | 398 | $97,237 |
+| Power BI | 110 | $97,431 |
+| Excel | 256 | $87,288 |
+| Snowflake | 37 | $112,948 |
+| Azure | 34 | $111,225 |
+| AWS | 32 | $108,317 |
+| Looker | 49 | $103,795 |
+| Oracle | 37 | $104,534 |
+
+> Note: SAS appeared multiple times in the raw results as a duplicate — this would be worth investigating in the data. SQL has the highest demand (398) while Snowflake offers the best salary-to-demand balance among cloud tools.
 
 ---
 
