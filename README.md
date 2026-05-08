@@ -5,6 +5,7 @@ A SQL-based analysis of the data analyst job market, focusing on remote roles. T
 - **SQL** (PostgreSQL)
 - **VS Code**
 - **Git & GitHub**
+- **Claude AI** (Solely for the graphs)
 
 ---
 
